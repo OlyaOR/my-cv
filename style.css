@@ -65,7 +65,7 @@
 .skills {
     position: relative;
     min-height: 400px;
-    padding: 20px 0px;
+    padding-bottom: 20px;
     font-size: 17px;
     line-height: 2.5;
     color: white;
@@ -109,4 +109,22 @@
 }
 .experience_item a:hover {
     color: yellowgreen;
+}
+.education {
+    position: relative;
+    min-height: 300px;
+    padding: 20px 0px;
+    font-size: 17px;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    background: url(https://kartinkinaden.ru/uploads/posts/2020-07/1595710531_53-p-sine-fioletovie-foni-59.jpg) center center/cover no-repeat;
+}
+.education_items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+.education_items .title {
+    text-align: center;
+    margin-bottom: 20px;
 }
