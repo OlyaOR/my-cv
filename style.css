@@ -1,0 +1,59 @@
+* {
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+.promo {
+    height: 570px;
+    background: url(https://lh3.googleusercontent.com/proxy/NgAF92c9LzXiIdG9hwC6j_IQUoDLEre_RJsvJoh-J3UqjaVCAZZoFgiDIK4tpou7R7aB5BmYJAwHC0y-6YZzbihdrKUfb6vDG2Q8974E8szx9_jIHC0hEbUDkm9jO9hd) center center/cover no-repeat;
+    text-shadow: 3px 3px 2px black;
+    color: white;
+    font-size: 17px;
+}
+.promo_header {
+    position: relative;
+    padding: 30px 0px;
+    font-size: 25px;
+    text-shadow: 3px 3px 2px black, 6px 5px 1em #F4E733;
+}
+.promo_info {
+    position: relative;
+}
+.promo_contacts {
+    border-radius: 10px;
+    padding:10px;
+    width: 270px;
+    box-shadow: 6px 8px 30px rgba(0,0,0,0.9);
+}
+.promo_contacts a {
+    text-shadow: 3px 3px 2px black;
+    color: white;
+    text-decoration: none;
+}
+.promo_about {
+    position: absolute;
+    width: 500px;
+    text-shadow: 3px 3px 2px black;
+    top: -90px;
+    right: 10px;
+}
+.promo_about ul {
+    position: absolute;
+    left: 18px;
+}
+.promo img {
+    display: block;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 6px 8px 30px rgba(0,0,0,0.9);
+}
+.promo .title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-70%);
+    right: 0;
+}
