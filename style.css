@@ -1,0 +1,135 @@
+* {
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+    box-shadow: 6px 8px 30px rgba(0,0,0,0.7);
+    padding: 20px;
+}
+.promo {
+    min-height: 500px;
+    background: url(https://lh3.googleusercontent.com/proxy/NgAF92c9LzXiIdG9hwC6j_IQUoDLEre_RJsvJoh-J3UqjaVCAZZoFgiDIK4tpou7R7aB5BmYJAwHC0y-6YZzbihdrKUfb6vDG2Q8974E8szx9_jIHC0hEbUDkm9jO9hd) center center/cover no-repeat;
+    text-shadow: 3px 3px 2px black;
+    color: white;
+    font-size: 17px;
+}
+.promo_header {
+    position: relative;
+    padding-bottom: 30px;
+    font-size: 25px;
+    text-shadow: 3px 3px 2px black, 6px 5px 1em #F4E733;
+}
+.promo_info {
+    position: relative;
+}
+.promo_contacts {
+    border-radius: 10px;
+    padding:10px;
+    width: 270px;
+    box-shadow: 6px 8px 30px rgba(0,0,0,0.9);
+}
+.promo_contacts a {
+    text-shadow: 3px 3px 2px black;
+    color: white;
+    text-decoration: none;
+}
+.promo_contacts a:hover {
+    text-shadow: 3px 3px 2px black;
+    color: #6FC6F5;
+    text-decoration: none;
+}
+.promo_about {
+    position: absolute;
+    width: 500px;
+    text-shadow: 3px 3px 2px black;
+    top: -90px;
+    right: 10px;
+}
+.promo_about ul {
+    position: absolute;
+    left: 18px;
+}
+.promo img {
+    display: block;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 6px 8px 30px rgba(0,0,0,0.9);
+}
+.promo .title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-70%);
+    right: 0;
+}
+.skills {
+    position: relative;
+    min-height: 400px;
+    font-size: 17px;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    background: url(https://lh3.googleusercontent.com/proxy/OqX8f9F14Nr9RVtiXGr1YM2jgqcFNYc_FJEh9L4XtqBFwFFhEYjWqu5TBx_2rmppi2Zxo4bNkC2zTgeXR82rUACqv6XQiAEeLU8OTwhvYBqiwqk1m8oxb0seDkIg6dKE-Lya) center center/cover no-repeat;
+}
+.skills_item img {
+    background: rgba(255,255,255,0.3);
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+    border-radius:10px;
+    transform: translateY(13px);
+}
+.skills_items {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.skills .title {
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 2px white;
+}
+.skills a {
+    text-shadow: 3px 3px 2px black;
+    color: white;
+    text-decoration: none;
+}
+.skills_item li {
+    list-style-type: none;
+}
+
+.experience_item li {
+    color: black;
+    left: 100px;
+    line-height: 1.5;
+}
+.experience_item li:hover {
+    color: yellowgreen;
+}
+.experience_item a:hover {
+    color: yellowgreen;
+}
+.education {
+    position: relative;
+    min-height: 300px;
+    font-size: 17px;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    background: url(https://kartinkinaden.ru/uploads/posts/2020-07/1595710531_53-p-sine-fioletovie-foni-59.jpg) center center/cover no-repeat;
+}
+.education_items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    
+}
+.education_item .title {
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 6px 8px 30px rgba(0,0,0,0.7);
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.3);
+}
