@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 .promo {
-    height: 570px;
+    min-height: 550px;
     background: url(https://lh3.googleusercontent.com/proxy/NgAF92c9LzXiIdG9hwC6j_IQUoDLEre_RJsvJoh-J3UqjaVCAZZoFgiDIK4tpou7R7aB5BmYJAwHC0y-6YZzbihdrKUfb6vDG2Q8974E8szx9_jIHC0hEbUDkm9jO9hd) center center/cover no-repeat;
     text-shadow: 3px 3px 2px black;
     color: white;
@@ -34,6 +34,11 @@
     color: white;
     text-decoration: none;
 }
+.promo_contacts a:hover {
+    text-shadow: 3px 3px 2px black;
+    color: #6FC6F5;
+    text-decoration: none;
+}
 .promo_about {
     position: absolute;
     width: 500px;
@@ -56,4 +61,52 @@
     top: 50%;
     transform: translateY(-70%);
     right: 0;
+}
+.skills {
+    position: relative;
+    min-height: 400px;
+    padding: 20px 0px;
+    font-size: 17px;
+    line-height: 2.5;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    background: url(https://lh3.googleusercontent.com/proxy/OqX8f9F14Nr9RVtiXGr1YM2jgqcFNYc_FJEh9L4XtqBFwFFhEYjWqu5TBx_2rmppi2Zxo4bNkC2zTgeXR82rUACqv6XQiAEeLU8OTwhvYBqiwqk1m8oxb0seDkIg6dKE-Lya) center center/cover no-repeat;
+}
+.skills img {
+    position: absolute;
+    left: 325px;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+    border-radius:10px
+
+}
+.skills .items {
+    display: flex;
+    justify-content: space-around;
+}
+.skills .title {
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 2px white;
+}
+.skills a {
+    text-shadow: 3px 3px 2px black;
+    color: white;
+    text-decoration: none;
+}
+.skills_item ul {
+    list-style-type: none;
+}
+.experience_item li {
+    color: black;
+    left: 100px;
+    line-height: 1.5;
+}
+.experience_item li:hover {
+    color: yellowgreen;
+}
+.experience_item a:hover {
+    color: yellowgreen;
 }
