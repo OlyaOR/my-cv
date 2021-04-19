@@ -1,1 +1,1 @@
-https://olyaor.github.io/rsschool-cv/
+https://olyaor.github.io/my-cv/
